@@ -49,7 +49,7 @@ struct RegisterScreen: View {
       
       BottomLinkView(question: "Already have an Account?", buttonText: "Login") {
         withAnimation {
-          appViewModel.goToRegisterScreen()
+          appViewModel.goToLoginScreen()
         }
       }
       .padding(.top, 20)
